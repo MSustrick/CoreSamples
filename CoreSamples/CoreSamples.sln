@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSamples", "CoreSamples\CoreSamples.csproj", "{885E0879-F77C-4A88-BF05-0A10F4550B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreSamples", "CoreSamples\CoreSamples.csproj", "{885E0879-F77C-4A88-BF05-0A10F4550B53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSamples.Business", "CoreSamples.Business\CoreSamples.Business.csproj", "{7056390E-21C9-4B02-A221-90104F3B2140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreSamples.Business", "CoreSamples.Business\CoreSamples.Business.csproj", "{7056390E-21C9-4B02-A221-90104F3B2140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSamples.DataAccess", "CoreSamples.DataAccess\CoreSamples.DataAccess.csproj", "{84E2867C-784E-4A59-9580-F9D2033A6326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreSamples.DataAccess", "CoreSamples.DataAccess\CoreSamples.DataAccess.csproj", "{84E2867C-784E-4A59-9580-F9D2033A6326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSamples.Repository", "CoreSamples.Repository\CoreSamples.Repository.csproj", "{0C3A8DAA-FBE4-459B-8796-EA6E24FB1659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreSamples.Repository", "CoreSamples.Repository\CoreSamples.Repository.csproj", "{0C3A8DAA-FBE4-459B-8796-EA6E24FB1659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSamples.Models", "CoreSamples.Models\CoreSamples.Models.csproj", "{6F270FA2-CDDA-48E0-A40D-5901386FABE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0C3A8DAA-FBE4-459B-8796-EA6E24FB1659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3A8DAA-FBE4-459B-8796-EA6E24FB1659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3A8DAA-FBE4-459B-8796-EA6E24FB1659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F270FA2-CDDA-48E0-A40D-5901386FABE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F270FA2-CDDA-48E0-A40D-5901386FABE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F270FA2-CDDA-48E0-A40D-5901386FABE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F270FA2-CDDA-48E0-A40D-5901386FABE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
